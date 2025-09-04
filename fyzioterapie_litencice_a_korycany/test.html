@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margin vs Padding</title>
+  <style>
+    .box {
+      border: 2px solid #22365C;
+      width: 300px;
+      margin: 20px;
+    }
+
+    .padding-example {
+      padding-left: 30px; /* text se odsune od levého okraje borderu */
+    }
+
+    .margin-example {
+      margin-left: 30px; /* celý rámeček se odsune doprava */
+    }
+  </style>
+</head>
+<body>
+  <div class="box padding-example">
+    Toto je příklad s <strong>paddingem</strong> (text je dál od levého okraje rámečku).
+  </div>
+
+  <div class="box margin-example">
+    Toto je příklad s <strong>margínem</strong> (celý rámeček se posune od levého okraje stránky).
+  </div>
+</body>
+</html>
